@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/details', function () {
+    return view('item/details');
+});
 Route::get('/api/sliders', function () {
     return response()->json([
                     [

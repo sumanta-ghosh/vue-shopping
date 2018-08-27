@@ -19,6 +19,7 @@ Vue.component('logo', require('./components/LogoComp.vue'));
 Vue.component('items', require('./components/ItemsComp.vue'));
 Vue.component('item', require('./components/ItemComp.vue'));
 Vue.component('mainSlider', require('./components/MainSlider.vue'));
+Vue.component('ribbon', require('./components/Ribbon.vue'));
 
 const app = new Vue({
     el: '#app'
