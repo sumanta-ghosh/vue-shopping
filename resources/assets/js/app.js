@@ -20,6 +20,9 @@ Vue.component('items', require('./components/ItemsComp.vue'));
 Vue.component('item', require('./components/ItemComp.vue'));
 Vue.component('mainSlider', require('./components/MainSlider.vue'));
 Vue.component('ribbon', require('./components/Ribbon.vue'));
+Vue.component('breadcrumb', require('./components/BreadcrumbComp.vue'));
+Vue.component('panel-heading', require('./components/PanelHeading.vue'));
+Vue.component('category-menu', require('./components/CategoryMenu.vue'));
 
 const app = new Vue({
     el: '#app'

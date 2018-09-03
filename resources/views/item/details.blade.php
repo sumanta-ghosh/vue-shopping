@@ -11,67 +11,16 @@
 
 <div class="container">
     <div class="col-md-12">
-        <ul class="breadcrumb">
-            <li><a href="#">Home</a>
-            </li>
-            <li><a href="#">Ladies</a>
-            </li>
-            <li><a href="#">Tops</a>
-            </li>
-            <li>White Blouse Armani</li>
-        </ul>
+        <breadcrumb/>
     </div>
 
     <div class="col-md-3">
         <!-- *** MENUS AND FILTERS ***
 _________________________________________________________ -->
         <div class="panel panel-default sidebar-menu">
-            <div class="panel-heading">
-                <h3 class="panel-title">Categories</h3>
-            </div>
+            <panel-heading v-bind:heading="'Categories'"></panel-heading>
             <div class="panel-body">
-                <ul class="nav nav-pills nav-stacked category-menu">
-                    <li>
-                        <a href="category.html">Men <span class="badge pull-right">42</span></a>
-                        <ul>
-                            <li><a href="category.html">T-shirts</a>
-                            </li>
-                            <li><a href="category.html">Shirts</a>
-                            </li>
-                            <li><a href="category.html">Pants</a>
-                            </li>
-                            <li><a href="category.html">Accessories</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="active">
-                        <a href="category.html">Ladies  <span class="badge pull-right">123</span></a>
-                        <ul>
-                            <li><a href="category.html">T-shirts</a>
-                            </li>
-                            <li><a href="category.html">Skirts</a>
-                            </li>
-                            <li><a href="category.html">Pants</a>
-                            </li>
-                            <li><a href="category.html">Accessories</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="category.html">Kids  <span class="badge pull-right">11</span></a>
-                        <ul>
-                            <li><a href="category.html">T-shirts</a>
-                            </li>
-                            <li><a href="category.html">Skirts</a>
-                            </li>
-                            <li><a href="category.html">Pants</a>
-                            </li>
-                            <li><a href="category.html">Accessories</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                </ul>
+                <category-menu></category-menu>
             </div>
         </div>
 
@@ -131,18 +80,19 @@ _________________________________________________________ -->
             <div class="col-sm-6">
                 <div class="box">
                     <h1 class="text-center">White Blouse Armani</h1>
-                    <p class="goToDescription"><a href="#details" class="scroll-to">Scroll to product details, material & care and sizing</a>
+                    <p class="goToDescription">
+                        <a href="#details" class="scroll-to">Scroll to product details, material & care and sizing</a>
                     </p>
                     <p class="price">$124.00</p>
-
                     <p class="text-center buttons">
-                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to cart</a> 
-                        <a href="basket.html" class="btn btn-default"><i class="fa fa-heart"></i> Add to wishlist</a>
+                        <a href="basket.html" class="btn btn-primary">
+                            <i class="fa fa-shopping-cart"></i> Add to cart
+                        </a> 
+                        <a href="basket.html" class="btn btn-default">
+                            <i class="fa fa-heart"></i> Add to wishlist
+                        </a>
                     </p>
-
-
                 </div>
-
                 <div class="row" id="thumbs">
                     <div class="col-xs-4">
                         <a href="img/detailbig1.jpg" class="thumb">
