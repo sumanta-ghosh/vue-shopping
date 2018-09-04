@@ -84,13 +84,9 @@ _________________________________________________________ -->
                         <a href="#details" class="scroll-to">Scroll to product details, material & care and sizing</a>
                     </p>
                     <p class="price">$124.00</p>
-                    <p class="text-center buttons">
-                        <a href="basket.html" class="btn btn-primary">
-                            <i class="fa fa-shopping-cart"></i> Add to cart
-                        </a> 
-                        <a href="basket.html" class="btn btn-default">
-                            <i class="fa fa-heart"></i> Add to wishlist
-                        </a>
+                    <p class="text-center buttons">                        
+                        <add-to-cart-btn></add-to-cart-btn>
+                        <add-to-wishlist-btn></add-to-wishlist-btn>
                     </p>
                 </div>
                 <div class="row" id="thumbs">

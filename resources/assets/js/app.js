@@ -23,6 +23,9 @@ Vue.component('ribbon', require('./components/Ribbon.vue'));
 Vue.component('breadcrumb', require('./components/BreadcrumbComp.vue'));
 Vue.component('panel-heading', require('./components/PanelHeading.vue'));
 Vue.component('category-menu', require('./components/CategoryMenu.vue'));
+Vue.component('category-menu', require('./components/AddToCartBtn.vue'));
+Vue.component('add-to-wishlist-btn', require('./components/AddToWishlistBtn.vue'));
+Vue.component('add-to-cart-btn', require('./components/AddToCartBtn.vue'));
 
 const app = new Vue({
     el: '#app'
